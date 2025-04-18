@@ -1,0 +1,7 @@
+{
+    "commentTranslate.source": "Bing",
+    "commentTranslate.multiLineMerge": true,
+    "files.associations": {
+        "string.h": "c"
+    }
+}
