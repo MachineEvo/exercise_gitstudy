@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 嘉乐 白, 广东工业大学, LIC=PE7DL-0D5KU-HLCCL-0D8Y8-6KJDJ-7GB6C
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+C:\Users\29179\Desktop\stm32project\白嘉乐的平衡车\Project.uvprojx
+Project File Date:  10/21/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling usart.c...
+System\usart.c(2): error:  #5: cannot open source input file "sys.h": No such file or directory
+  #include "sys.h"
+System\usart.c: 0 warnings, 1 error
+compiling PWM.c...
+compiling tcrt5000.c...
+compiling MPU6050.c...
+compiling LED.c...
+compiling Key.c...
+compiling usart3.c...
+Hardware\usart3.c(2): error:  #5: cannot open source input file "sys.h": No such file or directory
+  #include "sys.h"
+Hardware\usart3.c: 0 warnings, 1 error
+compiling main.c...
+compiling NVIC.c...
+compiling encoder.c...
+compiling inv_mpu.c...
+"no source": Error:  #5: cannot open source input file "Hardware\inv_mpu.c": No such file or directory
+Hardware\inv_mpu.c: 0 warnings, 1 error
+compiling mpuiic.c...
+"no source": Error:  #5: cannot open source input file "Hardware\mpuiic.c": No such file or directory
+Hardware\mpuiic.c: 0 warnings, 1 error
+compiling sys.c...
+"no source": Error:  #5: cannot open source input file "System\sys.c": No such file or directory
+System\sys.c: 0 warnings, 1 error
+compiling control.c...
+Hardware\control.c(5): error:  #5: cannot open source input file "inv_mpu.h": No such file or directory
+  #include "inv_mpu.h"
+Hardware\control.c: 0 warnings, 1 error
+compiling sensor.c...
+compiling stm32f10x_it.c...
+compiling motor.c...
+Hardware\motor.c(33): warning:  #223-D: function "abs" declared implicitly
+  	TIM_SetCompare1(
+IM1,abs(moto1));
+Hardware\motor.c(49): warning:  #223-D: function "abs" declared implicitly
+  	if(abs(*Jiaodu-*Med_Jiaodu)>60)
+Hardware\motor.c: 2 warnings, 0 errors
+compiling OLED.c...
+".\Objects\Project.axf" - 6 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  C:/Keil_v5/ARM/PACK/Keil/STM32F1xx_DFP/2.2.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
